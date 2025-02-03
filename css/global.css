@@ -18,8 +18,11 @@
 
 .container{
     padding: var(--container-p);
+    margin: auto;
     margin-bottom: var(--container-m);
     background-color: #D3D9D4;
+    max-width: 1000px;
+    
 }
 
 .flex-container{
