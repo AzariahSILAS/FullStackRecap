@@ -53,9 +53,7 @@ header{
     display: none;
 }
 
-p{
-    /* padding-bottom: var(--p-elm-pading); */
-}
+
 .logo{
     margin-bottom: 0;
 }
@@ -70,9 +68,15 @@ nav a{
     cursor: pointer;
     color: #D3D9D4;
 }
+h1{
+    
+}
 
 h2{
     margin-bottom: 35px;
+}
+p{
+    /* padding-bottom: var(--p-elm-pading); */
 }
 
 footer{
