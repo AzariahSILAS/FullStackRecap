@@ -5,3 +5,29 @@ p{
     margin-bottom: 35px;
 }
 /* img  */
+.img{
+    width: 100%;
+
+}
+/* grid  */
+
+/* .grid{
+    display: grid;
+    
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 3fr 1fr;
+
+    grid-template-areas: "firstP img"
+                         "secondP secondP"
+                         ;
+    
+}
+.firstP{
+    grid-area: firstP;
+}
+.gridImg{
+    grid-area: img;
+}
+.secondP{
+    grid-area: secondP;
+} */
