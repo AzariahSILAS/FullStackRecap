@@ -19,11 +19,12 @@
 .container{
     padding: var(--container-p);
     margin: auto;
-    margin-bottom: var(--container-m);
+    /* margin-bottom: var(--container-m); */
     background-color: #D3D9D4;
     max-width: 1000px;
     
 }
+
 
 .flex-container{
     margin-bottom: var(--margin-35);
@@ -31,7 +32,8 @@
     gap: 35px;
 }
 main{
-    padding: var(--main-p);
+    padding-left: var(--main-p);
+    padding-right: var(--main-p);
     /* padding-bottom: 10px; */
     background-color: #212A31;
     /* border: solid; */
@@ -73,15 +75,9 @@ nav a{
     cursor: pointer;
     color: #D3D9D4;
 }
-h1{
-    
-}
 
 h2{
     margin-bottom: 35px;
-}
-p{
-    /* padding-bottom: var(--p-elm-pading); */
 }
 
 footer{
