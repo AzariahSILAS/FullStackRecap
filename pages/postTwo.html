@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/post.css">
+    <title>second post</title>
+</head>
+<body>
+    <header>
+        <a class="aLogo" href="../index.html"><h2 class="logo">F-S-W-R</h2></a>
+        <img src="../assets/menu.png" alt="" class="navLogo">
+        <nav>
+            <a href="#">Collection</a>
+            <a href="#"> All Post</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="title">fundamentals of html</h1>
+            <h3>--- from syllabus: fundamentals of html ---</h3>
+            <h2>table rows</h2>
+            <p>
+                HTML files require certain elements to set up the document properly. We can let web browsers know that we are using HTML by starting our document with a document type declaration. The declaration looks like this:
+                &lt;!DOCTYPE html&gt;
+            </p>
+
+            <h2>Opening Links in a New Window</h2>
+            <p>
+                    Have you ever clicked on a link and observed the resulting web page open in a new browser window? If so, you can thank the &lt;a&gt; element’s target attribute.
+                    The target attribute specifies how a link should open.
+                    It’s possible that one or more links on your web page link to an entirely different website. In that case, you may want users to read the linked website, but hope that they return to your web page. This is exactly when the target attribute is useful!
+                    For a link to open in a new window, the target attribute requires a value of _blank. The target attribute can be added directly to the opening tag of the anchor element, just like the href attribute.
+                    <br>
+                    &lt;a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The // Brown Bear &lt; /a&gt;
+            </p>
+            
+            <h2>Linking to Same Page</h2>
+            <p>
+                At this point, we have all the content we want on our page. Since we have so much content, it doesn’t all fit on the screen. How do we make it easier for a user to jump to different portions of our page?
+                When users visit our site, we want them to be able to click a link and have the page automatically scroll to a specific section.
+                In order to link to a target on the same page, we must give the target an id attribute and a unique value like this:
+
+                <br>
+                &lt;p id="top">This is the top of the page!&lt;/p&gt;
+                &lt;h1 id="bottom">This is the bottom! &lt;/h1&gt;
+                &lt;ol&gt;
+                &lt;li&gt;&lt;a href="#top"&gt;Top&lt; /a&gt;&lt; /li&gt;
+                &lt;li&gt;&lt;a href="#bottom"&gt;Bottom&lt; /a&gt;&lt; /li&gt;
+                &lt; /ol&gt;
+            </p>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
