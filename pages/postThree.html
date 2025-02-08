@@ -20,18 +20,90 @@
         <div class="container">
             <h1 class="title">fundamentals of html</h1>
             <h3>--- from syllabus: fundamentals of html ---</h3>
-            <h2>!DOCTYPE html</h2>
+            <h2>table rows</h2>
             <p>
-               
+                The first step in entering data into the table is to add rows using the table row element: &lt;tr&gt;.
             </p>
+            <img src="../assets/week1/tableExample.png" alt="" class="img">
 
-            <h2>Opening Links in a New Window</h2>
+            <h2>table data</h2>
             <p>
-             
+                Rows aren’t sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: &lt;td&gt;.
+            </p>
+            <img src="../assets/week1/tableData.png" alt="" class="img">
+            <p>
+                In the example above, two data points (73 and 81) were entered in the one row that exists. By adding two data points, we created two cells of data.
+                If the table were displayed in the browser, it would show a table with one row and two columns.
             </p>
             
-            <h2>Linking to Same Page</h2>
-            
+            <h2>Table Headings</h2>
+            <p>
+                Table data doesn’t make much sense without titles to describe what the data represents.
+                To add titles to rows and columns, you can use the table heading element: &lt;th&gt;.
+                The table heading element is used just like a table data element, except with a relevant title. Just like table data, a table heading must be placed within a table row.
+            </p>
+            <img src="../assets/week1/tableHeading.png" alt="" class="img">
+            <p>
+                What happened in the code above?
+                First, a new row was added to hold the three headings: a blank heading, a Saturday heading, and a Sunday heading. The blank heading creates the extra table cell necessary to align the table headings correctly over the data they correspond to.
+                In the second row, one table heading was added as a row title: Temperature.
+                When rendered, this code will appear similar to the image below:
+            </p>
+            <img src="https://content.codecademy.com/courses/learn-html-tables/table_example.png" alt="" class="img">
+            <p>
+                Note, also, the use of the scope attribute, which can take one of two values:
+                row - this value makes it clear that the heading is for a row.
+                col - this value makes it clear that the heading is for a column.
+                HTML code for tables may look a little strange at first, but analyzing it piece by piece helps make the code more understandable.
+            </p>
+            <h2>Spanning Columns</h2>
+            <p>
+                What if the 
+                Preview: Docs Loading link description
+                table
+                contains data that spans multiple columns?
+                For example, a personal calendar could have events that span across multiple hours, or even multiple days.
+                Data can span columns using the 
+                Preview: Docs Specifies the number of columns a cell should span.
+                colspan
+                attribute. The attribute accepts an integer (greater than or equal to 1) to denote the number of columns it spans across.
+            </p>
+            <img src="../assets/week1/colspan.png" alt="" class="img">
+            <p>
+                In the example above, the data Out of Town spans the Monday and Tuesday table 
+                Preview: Docs Loading link description
+                headings
+                using the value 2 (two columns). The data Back in Town appears only under the Wednesday heading.
+                Data can also span multiple rows using the 
+                Preview: Docs Specifies the number of rows a cell should span.
+                rowspan
+                attribute.
+            </p>
+            <h2>table body</h2>
+            <p>
+                Over time, a table can grow to contain a lot of data and become very long. When this happens, the table can be sectioned off so that it is easier to manage.
+                Long tables can be sectioned off using the table body element: &lt;tbody&gt;.
+                The &lt;tbody&gt; element should contain all of the table’s data, excluding the table headings (more on this in a later exercise).
+            </p>
+            <img src="../assets/week1/tbody.png" alt="" class="img">
+            <h2>table head</h2>
+            <p>
+                In the last exercise, the table’s headings were kept inside of the table’s body. When a table’s body is sectioned off, however, it also makes sense to section off the table’s column headings using the &lt;thead&gt; element.
+            </p>
+            <img src="../assets/week1/thead.png" alt="" class="img">
+            <h2>table footer</h2>
+            <p>
+                The bottom part of a long table can also be sectioned off using the &lt;tfoot&gt;element.
+            </p>
+            <img src="../assets/week1/tfoot.png" alt="" class="img">
+            <h2>Styling with CSS</h2>
+            <p>
+                Tables, by default, are very bland. They have no borders, the font color is black, and the typeface is the same type used for other HTML 
+                Preview: Docs Loading link description
+                elements.
+                CSS, or Cascading Style Sheets, is a language that web developers use to style the HTML content on a web page. You can use CSS to style tables. Specifically, you can style the various aspects mentioned above.
+            </p>
+            <img src="../assets/week1/tableStyles.png" alt="" class="img">
         </div>
 
     </main>
