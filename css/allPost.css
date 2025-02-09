@@ -2,3 +2,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.postCard h2, .postCard h3{
+    margin-bottom: 10px ;
+    
+}
+.postCard{
+    border: solid;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cardDiv{
+    border: solid;
+    
+}

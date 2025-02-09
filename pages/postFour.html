@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/post.css">
+    <title>Selectors and Visual Rules</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="aLogo"><h2 class="logo">F-S-W-R</h2></a>
+        <a href="./pages/allPost.html"><img src="./assets/menu.png" alt="" class="navLogo"></a>
+        <nav>
+            <a href="./allPost.html">Posts</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="title">Attribute selector</h1>
+            <h3>--- from syllabus: fundamentals of css  ---</h3>
+            <h2>Attribute selector</h2>
+            <p>
+                You may remember that some HTML elements use attributes to add extra detail or functionality to the element. Some familiar attributes may be href and src, but there are many more—including class and id!
+                The attribute selector can be used to target HTML elements that already contain attributes. Elements of the same type can be targeted differently by their attribute or attribute value. This alleviates the need to add new code, like the class or id attributes.
+                Attributes can be selected similarly to types, classes, and IDs.
+            </p>
+            <img src="../assets/week2/attributeselector.png" alt="" class="img">
+            <p>
+                The most basic syntax is an attribute surrounded by square brackets. In the above example: [href] would target all elements with an href attribute and set the 
+                Preview: Docs To set color property values for an element.
+                color
+                to magenta.
+                And it can get more granular from there by adding type and/or attribute values. One way is by using type[attribute*=value]. In short, this code selects an element where the attribute contains any instance of the specified value. Let’s take a look at an example.
+            </p>
+            <img src="../assets/week2/typeAndAttribute.png" alt="" class="img">
+            
+            
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
