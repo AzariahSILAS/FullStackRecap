@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/post.css">
+    <link rel="stylesheet" href="../css/postSix.css">
+    <title>Display and Positioning</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="aLogo"><h2 class="logo">F-S-W-R</h2></a>
+        <a href="./allPost.html"><img src="../assets/menu.png" alt="" class="navLogo"></a>
+        <nav>
+            <a href="./allPost.html">Posts</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="title">Display and Positioning</h1>
+            <h3>--- from syllabus: fundamentals of css  ---</h3>
+            <h2>Position: Relative</h2>
+            <p>
+                One way to modify the default position of an element is by setting its 
+                position property to
+                relative
+                This value allows you to position an element relative to its default 
+                static position on the web page.
+            </p>
+
+            <div class="relativeContainer">
+                <div class="item">
+
+                </div>
+                <div class="relativeItem item">
+                    <img src="../assets/week2/pRelativeCode.png" class="pSixImg" alt="">
+                </div>
+                <div class="item">
+
+                </div>
+            </div>
+            <h2>Position: Absolute</h2>
+            <p>
+                Another way of modifying the position of an element is by setting its position to absolute.
+                When an element’s position is set to absolute, all other elements on the page will ignore the element and act like it is not present on the page. The element will be positioned reletive to its closest ancestor that has its position property set to anything other than static (e.g., relative, absolute, or fixed ), and offset properties can be used to adjust its final position from that reference point. Take a look at the image below:
+            </p>
+            <div class="absoluteContainer">
+                <div class="item"></div>
+                <div class="absoItem item">
+                    <img src="../assets/week2/pabsoluteCode.png" class="pSixImg" alt="">
+                </div>
+                <img src="../assets/week2/parentContainer.png" class="secondImg" alt="">
+                <div class="item"></div>
+            </div>
+            <p>I made the parent container position sticky that way the items position absolute would be relitive to that container otherwise it would be the body element because it doesent respect the tefault position static.</p>
+            <h2>Position: Fixed</h2>
+            
+            
+            
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
