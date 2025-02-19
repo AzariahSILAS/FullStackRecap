@@ -55,6 +55,33 @@
             </div>
             <p>I made the parent container position sticky that way the items position absolute would be relitive to that container otherwise it would be the body element because it doesent respect the tefault position static.</p>
             <h2>Position: Fixed</h2>
+            <p>
+                When an element’s position is set to absolute
+                , as in the last exercise, the element will scroll with the rest of the document when a user scrolls.
+                We can fix an element to a specific position on the page (regardless of user scrolling) by setting its position to fixed, and accompanying it with the familiar offset properties top, bottom, left, and right.
+            </p>
+            <div class="fixedContainer marginB">
+                <div class="item"></div>
+                <div id="fixedItem" class="fixedItem item">
+                    <img src="../assets/week2/fixedCode.png" alt="">
+                </div>
+                <div class="item"></div>
+            </div>
+
+            <h2>Position: Sticky</h2>
+            
+            
+            <div class="stickyContainer marginB" >                 
+                <div class="item"></div>
+                <div class=" stickyItem item"></div>
+                <div class="item"></div>
+            </div>
+
+            <p>
+                the sticky element starts sticking to the specifide distance from the top using the top property once you scroll to that position. For example, i set the sticky item to be top 20px so when the top of it is 20 px from the top of the screen, it will stay in that position as i scroll untill i reach the end of its parent container.
+            </p>
+
+            
             
             
             
@@ -64,5 +91,6 @@
     <footer>
 
     </footer>
+    <script src="../scripts/postFive.js"></script>
 </body>
 </html>

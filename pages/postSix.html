@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/postSix.css">
+    <title>Intro to Async Javascript</title>
 </head>
 <body>
+    <header>
+        <a href="../index.html" class="aLogo"><h2 class="logo">F-S-W-R</h2></a>
+        <a href="./allPost.html"><img src="../assets/menu.png" alt="" class="navLogo"></a>
+        <nav>
+            <a href="./allPost.html">Posts</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Intro to Async Javascript</h1>
+            <h2>Callback Functions</h2>
+            <p>
+                Callbacks put simply are functions that are called in another functions parameters.
+                for example an eventListener. an eventListener has two parameters the first is a string desribing the kind of event to listen out for, and the second parameter is the callback funtion with the code to be exicuted once that event is (we'll say) heard since its "listening" for the event lol.
+            </p>
+            <img src="../assets/week7/eventLister=ner.png" class="img imgMargin " alt="">
+            <p>
+                In the example above, you can visualize the callback function in the event eventListener. this is the begening to asynchronous Javascript because that callback function can be called anytime that event is triggered and does not follow the flow of the rest of the code.
+                <br>
+                Now whats the problem with callback functions for asynchronous programing? Well it has its uses like we see in that eventListener example but its just not enough. bucause theres times when we need more complex Asynchronous opperations and with just callbacks we risk callback hell! <br>
+                What is callback hell? Why don't I show you.
+            </p>
+
+        </div>
+    </main>
+    <footer></footer>
+    
+
     <script src="../scripts/postSix.js"></script>
 </body>
 </html>
